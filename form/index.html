@@ -1,0 +1,43 @@
+<html>
+<head>
+<link rel="stylesheet" href="mystyle.css">
+<script src="script.js"></script>
+</head>
+<body>
+    <div class="testbox">
+      <form name="myForm" onsubmit="return validate() " method="post">
+        <div class="banner">
+          <h1>Booking appointment </h1>
+        </div>
+        <div class="item">
+          <p>National ID</p>
+          <div class="name-item">
+            <input type="text" name="name" required/>
+          </div>
+        </div>
+        <div class="item">
+          <p>Email</p>
+          <input type="mail" name="mail" required/>
+        </div>
+        <div class="item">
+          <p>Phone</p>
+          <input type="text" name="phonee" required/>
+        </div>
+          <div class="item">
+          <p>Reservation Date</p>
+          <input type="date" name="bdate" required/>
+          <i class="fas fa-calendar-alt"></i>
+        </div>
+   <div class="item">
+          <p>Reservation Time</p>
+          <input type="time" name="btime" required/>
+               </div>
+      
+        <div class="btn-block">
+          <button type="submit" href="javascript:void(0)" >Send</button>
+        </div>
+      </form>
+    </div>
+  </body>
+
+</html>
